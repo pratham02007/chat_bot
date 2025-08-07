@@ -1,6 +1,6 @@
-import streamlit as st
-import google.generativeai as genai
-
+import streamlit as st # type: ignore
+import google.generativeai as genai # type: ignore
+ 
 # Configure the page
 st.set_page_config(
     page_title="My AI Chatbot",
@@ -79,3 +79,4 @@ st.markdown("""
 - Write a short story
 - What's the weather like? (Note: I can't access real-time data)
 """)
+
