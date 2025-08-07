@@ -1,5 +1,5 @@
-import streamlit as st # type: ignore
-import google.generativeai as genai # type: ignore
+import streamlit as st 
+import google.generativeai as genai 
  
 # Configure the page
 st.set_page_config(
@@ -79,4 +79,5 @@ st.markdown("""
 - Write a short story
 - What's the weather like? (Note: I can't access real-time data)
 """)
+
 
